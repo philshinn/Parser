@@ -708,7 +708,7 @@ if __name__ == "__main__":
     if dbg: print "---------------------------------"
 
     myLanguage = Language("English")
-    #addNumbers()
+    addNumbers()
     #addVerbs()
     #addPronouns()
     #addCommonNouns()
@@ -718,7 +718,7 @@ if __name__ == "__main__":
     myLanguage.dictionary.addWord(Verb('stem=die;synset=expire'))
     myLanguage.dictionary.addWord(IrregularVerb("stem=overlie","past=overlay;past participle=overlain"))
     myLanguage.dictionary.addWord(IrregularVerb("stem=quit","past=quit;past participle=quit"))
-    myLanguage.dictionary.dump()
+    #myLanguage.dictionary.dump()
     #myLanguage.dictionary.printWordList()
 
 
